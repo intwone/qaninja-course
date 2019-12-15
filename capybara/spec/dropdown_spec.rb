@@ -1,7 +1,7 @@
 describe "Option box", :dropdown do
   it "Simple specific item" do
     # Visit the page in browser
-    visit "https://training-wheels-protocol.herokuapp.com/dropdown"
+    visit "/dropdown"
 
     # Select the Loki option
     select("Loki", from: "dropdown")
@@ -12,7 +12,7 @@ describe "Option box", :dropdown do
 
   it "Specific item with find" do
     # Visit the page in browser
-    visit "https://training-wheels-protocol.herokuapp.com/dropdown"
+    visit "/dropdown"
 
     # Search the "avanger-list" element and store it in the selectist variable
     selectList = find(".avenger-list")
@@ -26,7 +26,7 @@ describe "Option box", :dropdown do
 
   it "Any option", :sample do
     # Visit the page in browser
-    visit "https://training-wheels-protocol.herokuapp.com/dropdown"
+    visit "/dropdown"
 
     # Search the "avanger-list" element and store it in the selectist variable
     selectList = find(".avenger-list")

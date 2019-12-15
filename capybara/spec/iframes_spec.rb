@@ -1,7 +1,7 @@
 describe "Iframes" do
   describe "nice iframe", :niceIframe do
     before(:each) do
-      visit "https://training-wheels-protocol.herokuapp.com/nice_iframe"
+      visit "/nice_iframe"
     end
 
     it "Add to the cart" do
@@ -16,7 +16,7 @@ describe "Iframes" do
 
   describe "bad iframe", :badIframe do
     before(:each) do
-      visit "https://training-wheels-protocol.herokuapp.com/bad_iframe"
+      visit "/bad_iframe"
     end
 
     it "cart must be empty" do

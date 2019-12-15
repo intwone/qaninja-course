@@ -1,4 +1,4 @@
-describe "first script", :hello, :smoke do
+describe "resize browser window", :resize do
   it "to visit page" do
     # Acessa a página a ser testada
     visit "/"

@@ -11,7 +11,7 @@ within("#login") do
 
 describe "login and register", :loginAndRegister do
   before(:each) do
-    visit "https://training-wheels-protocol.herokuapp.com/access"
+    visit "/access"
   end
 
   it "login successfully" do

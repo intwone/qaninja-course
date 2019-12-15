@@ -1,7 +1,7 @@
-describe "login 2", :logintwo do
+describe "login 2", :logintwo, :smoke do
   before(:each) do
     # Acessa a página a ser testada
-    visit "https://training-wheels-protocol.herokuapp.com/login2"
+    visit "/login2"
   end
 
   it "with date of birth" do

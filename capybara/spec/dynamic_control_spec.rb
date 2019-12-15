@@ -1,7 +1,7 @@
 describe "Upload", :dynamicControl do
   before(:each) do
     # Visit the page in browser
-    visit "https://training-wheels-protocol.herokuapp.com/dynamic_controls"
+    visit "/dynamic_controls"
   end
 
   it "When field enable" do
